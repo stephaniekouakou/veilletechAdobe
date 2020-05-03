@@ -1,0 +1,216 @@
+body{
+	margin: 0;
+  padding: 0;
+
+}
+
+#content{
+  background-color:  ;
+  width: 80%;
+  margin: auto;
+  height: auto;
+
+}
+#header{
+	 
+	  width: 100%;
+	  height: auto;
+	  //margin-top: -100px;
+	  padding-top: 51px;
+
+
+
+}
+
+	 #logo{
+	 width: 80%;
+	  height: 100px;
+	  margin: auto;s
+	  //margin-bottom: -20px;
+	  position: fixed;
+	  box-shadow:0px 0px 1px ;
+	  background-color: #FFFFFF;
+	  z-index: 3;
+	  margin-top: -20px;
+}
+
+ #logo img{
+	  width: 25%;
+	  height: 95%;
+	  margin-left: 35%;
+	  	
+	
+	 
+}
+
+#header #menu{
+	  margin-top: 0px;
+	  width: 100%;
+	  height: 50px;
+	  background-color: #003869;
+	  color:white;
+	  text-align: center;
+
+}
+#menu ul{
+	 margin-left: -50px;
+}
+
+#menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin-top: 15px;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	}
+
+#menu ul li a{
+	font-size: 15px;
+	color: #EBECEC;
+    font-family: Georgia;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 100%;
+    height: 70%;
+    padding-top:15px;
+    display: inline-block;
+    
+}	
+#menu ul li:hover a{
+	background-color:#4E7494;
+       transition: all 1s;
+
+      }
+
+ #baniere {
+	background-color: #B4B3B2;
+	height: 150px;
+
+
+}
+#baniere #bloc{
+	height: auto;
+	width: auto;
+	position: relative;
+	
+	padding-top: 98px;
+}
+
+#baniere #bloc > div{
+	
+	width: 70%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	background-color:#ECECEB ;
+	
+}
+#baniere #bloc #sec1 h1 {
+	color: #003869;
+	
+	display:block;
+	margin-top: -1px;
+}
+
+#baniere #bloc #sec1{
+	border-bottom: 1px solid #FFFFFF;
+}
+#baniere #bloc #sec2{
+	border-top: 1px solid #FFFFFF;
+}
+#baniere #bloc #sec2 span{
+	color: #003869;
+	text-transform: uppercase;
+	display:block;
+	margin-top: 10px;
+}
+
+#body {
+	
+		width:80%;
+		margin:  auto;
+		margin-top: 150PX;
+		margin-bottom: 150px;
+		height: auto; 
+		font-family: Kiona regular;
+	font-size: 20px;
+}
+
+#body #profil{
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+	height: 250px;
+	background-color: #003869;
+	 box-shadow:0px 0px 4px ;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+
+#body img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	//margin-left: 80px;
+	margin-top: -40px;
+
+}
+
+
+
+
+#footer{
+	background-color:#003869;
+  	width: 100%;
+   height: auto;
+  z-index: 3;
+  color: white;
+}
+
+#footer .contact{
+	width: 40%;
+	margin: auto;
+	height: auto;
+	text-align: center;
+
+}
+#footer .contact h2{
+	font-size: 20px;
+	font-family:  verdana;
+	color: #E6E8E6;
+}
+#footer .contact span{
+	font-size: 15px;
+	//margin-top: 10px;
+	display: inline-block;
+	font-family:  verdana;
+}
+
+
+
+#footer .icones{
+	width: 20%;
+	height: auto;
+	margin: auto;
+
+display: flex;
+ flex-direction:row;
+ text-align: center;
+	margin-top: 35px;
+}
+
+#footer .icones a{
+	display: inline-block;
+	width: 40px;
+	margin-left: 20px;
+	height: 20px;
+	
+
+}
+#footer .icones a img{
+	width: 100%;
+	height: 100%;
+}
